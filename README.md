@@ -2,7 +2,7 @@
 This Game is for two players. 
 
 ## Data:
-I used the data from kaggle on rock-paper-scissors game and I also used the images provided by tensorflow. Since these images were not diverse in back ground color so I created my own dataset of images in addition. You can create yor own dataset by using Collect_images.ipynb notebook 
+I used the data from kaggle on rock-paper-scissors game(https://www.kaggle.com/drgfreeman/rockpaperscissors) and I also used the images provided by tensorflow. Since these images were not diverse in back ground color so I created my own dataset of images in addition. You can create yor own dataset by using Collect_images.ipynb notebook 
 
 ## Methodology:
 I used tensorflow Image data generator for more distorted images and used them from directly by using flow from directory method. For trainig I used mobilenet v2 as base model because it performed better than efficient nets and other conv nets for this task, but you can use any model you want. The weights and the architecture of model are saved in saver folder for its use in real time. 
