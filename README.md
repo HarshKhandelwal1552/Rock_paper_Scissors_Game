@@ -11,4 +11,4 @@ I used tensorflow Image data generator for more distorted images and used them f
 The notebook View_the_game.ipynb is for real time game view, prediction, and declearation of winner. You can use any camera for this purpose I used  my mobile camera for this by using its IP address in similar way you can use your device camera just by specifing the IP address and start streaming. The screen will be splited in two parts for player 1 and player 2. A batch of images will we used to make a prediction this also gives some milliseconds time to players to get ready for their next turn or the next round. According to the max points for winning, one change the time for streaming, That will be specified in the notebook.
 
 ## Here is a Quick Demo of this project
-![](sample/Screenshot(117).png)
+![](sample/Screenshot(177).png)
